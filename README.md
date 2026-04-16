@@ -28,8 +28,8 @@ We benchmark six Earth Observation (EO) foundation models:
 | [Prithvi](https://huggingface.co/ibm-nasa-geospatial/Prithvi-100M) | Transformer-based geospatial model pretrained on HLS imagery |
 | [ScaleMAE](https://github.com/bair-climate-initiative/scale-mae) | Scale-aware remote-sensing features via masked autoencoding |
 | [SSL4EO](https://github.com/zhu-xlab/SSL4EO-S12) | Self-supervised weights trained on the SSL4EO-S12 Sentinel-1/Sentinel-2 corpus |
-| [SARDet100K](https://github.com/zcablii/SARDet-100K) | Pretrained on large-scale SAR object detection |
-| [SARJEPA](https://github.com/Alien9427/SAR_JEPA) | SAR self-supervised model based on joint-embedding predictive learning |
+| [SARDet100K](https://github.com/zcablii/sardet_100k) | Pretrained on large-scale SAR object detection |
+| [SARJEPA](https://github.com/waterdisappear/SAR-JEPA) | SAR self-supervised model based on joint-embedding predictive learning |
 
 ### Datasets
 
@@ -37,8 +37,8 @@ We evaluate on two public SAR ship datasets:
 
 | Dataset | Sensor | Description |
 |---------|--------|-------------|
-| [FUSARShip](https://radars.ac.cn/web/data/getData?newsColumnId=1e6ecbcc-02f5-40b5-a66d-db661cf2d28e) | GF-3 | High-resolution SAR-AIS matchups |
-| [OpenSARShip](https://opensar.sjtu.edu.cn/) | Sentinel-1 | Ship chips linked to AIS messages |
+| [FUSARShip](https://emwlab.fudan.edu.cn/67/05/c20899a222981/page.htm) | GF-3 | High-resolution SAR-AIS matchups |
+| [OpenSARShip](https://opensar.sjtu.edu.cn/project.html) | Sentinel-1 | Ship chips linked to AIS messages |
 
 Both datasets are restricted to their **shared ship categories** (Cargo, Tanker, Fishing) to ensure comparability.
 
