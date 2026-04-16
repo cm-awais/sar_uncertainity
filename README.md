@@ -142,8 +142,8 @@ This procedure is repeated three times (once per held-out class), yielding three
 | Metric | Description |
 |--------|-------------|
 | Accuracy | Overall classification accuracy |
-| Balanced Accuracy | Primary metric under class imbalance |
-| Macro-F1 | Primary metric under class imbalance |
+| Balanced Accuracy | Co-primary metric under class imbalance (alongside Macro-F1) |
+| Macro-F1 | Co-primary metric under class imbalance (alongside Balanced Accuracy) |
 | Per-class Recall | Per-class performance breakdown |
 | AUROC | Threshold-free metric for unknown-class detection (0.5 = random, 1.0 = perfect) |
 
